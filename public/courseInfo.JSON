@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "image": "https://quanticalabs.com/wp_themes4/swimacademy/wp-content/uploads/sites/3/2021/05/image_33.jpg",
+        "name": "Little Frogs: 18-36 Months",
+        "price": 299,
+        "description": "Classes conducted with adults in the water. The little ones start their adventure in the water with the use of games and activities."
+    },
+    {
+        "id": 2,
+        "image": "https://quanticalabs.com/wp_themes4/swimacademy/wp-content/uploads/sites/3/2021/05/image_32.jpg",
+        "name": "Sea Turtles: 3-4 Years",
+        "price": 350,
+        "description": "Classes developing awareness of the aquatic environment. Without the parent's presence in the water."
+    },
+    {
+        "id": 3,
+        "image": "https://quanticalabs.com/wp_themes4/swimacademy/wp-content/uploads/sites/3/2021/05/image_34.jpg",
+        "name": "Sharks: 4-12 Years",
+        "price": 399,
+        "description": "Learning beginner strokes on their backs and fronts. Classes without the participation of adults in the water."
+    },
+    {
+        "id": 4,
+        "image": "https://quanticalabs.com/wp_themes4/swimacademy/wp-content/uploads/sites/3/2021/05/image_36.jpg",
+        "name": "Pro Swimmers: 5-12 Years",
+        "price": 450,
+        "description": "Mastering the technique in four swimming styles: freestyle, backstroke, breaststroke and butterfly. Constantly on the move."
+    },
+    {
+        "id": 5,
+        "image": "https://quanticalabs.com/wp_themes4/swimacademy/wp-content/uploads/sites/3/2021/05/image_35.jpg",
+        "name": "Aqua Aerobics",
+        "price": 179,
+        "description": "Refreshing and invigorating. Get a low impact all-round workout in the shallow water of the swimming pool."
+    },
+    {
+        "id": 6,
+        "image": "https://quanticalabs.com/wp_themes4/swimacademy/wp-content/uploads/sites/3/2021/05/image_37.jpg",
+        "name": "Deep Aqua Aerobics",
+        "price": 199,
+        "description": "High intensity full body workout to build your core strength in the shallow water of the swimming pool."
+    },
+    {
+        "id": 7,
+        "image": "https://quanticalabs.com/wp_themes4/swimacademy/wp-content/uploads/sites/3/2021/05/image_43.jpg",
+        "name": "Aqua Fitness",
+        "price": 999,
+        "description": "Sports activities in the water combined with energetic music are the perfect solution for everyone, even for non-swimmers."
+    },
+    {
+        "id": 8,
+        "image": "https://quanticalabs.com/wp_themes4/swimacademy/wp-content/uploads/sites/3/2021/05/image_40.jpg",
+        "name": "Aqua Zumba",
+        "price": 390,
+        "description": "Zumba classes in the water. The water reaches the waist so you don't need to know how to swim."
+    },
+    {
+        "id": 9,
+        "image": "https://quanticalabs.com/wp_themes4/swimacademy/wp-content/uploads/sites/3/2021/05/image_42.jpg",
+        "name": "Children's Day at the Pool",
+        "price": 49,
+        "description": "Unforgettable experience. The event includes floats, toys and games for children and adults to play together."
+    },
+    {
+        "id": 10,
+        "image": "https://quanticalabs.com/wp_themes4/swimacademy/wp-content/uploads/sites/3/2021/05/image_41.jpg",
+        "name": "First Aid for Children",
+        "price": 99,
+        "description": "Designed for children aged 7-12. Children begin to become more independent and understand basic first aid."
+    },
+    {
+        "id": 11,
+        "image": "https://quanticalabs.com/wp_themes4/swimacademy/wp-content/uploads/sites/3/2021/05/image_38.jpg",
+        "name": "Introduction to Climbing",
+        "price": 289,
+        "description": "Learn the basics of knot tying and belay technique. Designed for people with little or no climbing experience."
+    },
+    {
+        "id": 12,
+        "image": "https://quanticalabs.com/wp_themes4/swimacademy/wp-content/uploads/sites/3/2021/05/image_39.jpg",
+        "name": "Introduction to Bouldering",
+        "price": 269,
+        "description": "Learn the basics of bouldering and basic movement skills. Designed for people with little or no climbing experience."
+    }
+]
