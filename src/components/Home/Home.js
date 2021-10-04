@@ -1,17 +1,12 @@
-import React, { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import useCourses from '../../hooks/useCoursers';
 import Banner from '../Banner/Banner';
 import Course from '../Course/Course';
 import Footer from '../Footer/Footer';
 
 const Home = () => {
-    const [courses, setCourses] = useState([]);
-    useEffect(() => {
-        fetch('./courseInfo.JSON')
-            .then(res => res.json())
-            .then(data => setCourses(data));
-    }, [])
+    const [courses] = useCourses()
     return (
         <div>
             <Banner></Banner>
