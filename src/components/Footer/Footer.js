@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 import './Footer.css'
 
 
-
+//Footer part here
 const Footer = () => {
     return (
         <div className="footer-bg">

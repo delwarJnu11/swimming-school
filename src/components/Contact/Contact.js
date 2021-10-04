@@ -8,9 +8,11 @@ import Footer from '../Footer/Footer';
 const Contact = () => {
     return (
         <div>
+            {/* Header import here */}
             <div className="header-bg">
                 <Header></Header>
             </div>
+            {/* contact section here  */}
             <Container>
                 <div className="w-50 mx-auto text-center">
                     <h3 className="mt-5">Get in Touch With Us</h3>
@@ -40,6 +42,7 @@ const Contact = () => {
                     </div>
                 </div>
             </Container>
+            {/* footer part import here */}
             <Footer></Footer>
 
         </div>

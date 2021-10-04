@@ -8,9 +8,11 @@ import Footer from '../Footer/Footer';
 const About = () => {
     return (
         <div>
+            {/* Header Menu */}
             <div className="header-bg">
                 <Header></Header>
             </div>
+            {/* About section  */}
             <Container className="my-5">
                 <div className="row">
                     <div className="col-12 col-md-6">
@@ -39,6 +41,7 @@ const About = () => {
                     </div>
                 </div>
             </Container>
+            {/* footer part */}
             <Footer></Footer>
         </div>
     );

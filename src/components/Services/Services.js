@@ -4,10 +4,13 @@ import Course from '../Course/Course';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 
+//services page
 const Services = () => {
+    // use custom hook here
     const [courses] = useCourses();
     return (
         <div>
+            {/* Header import here  */}
             <div className="header-bg">
                 <Header></Header>
             </div>
@@ -22,6 +25,7 @@ const Services = () => {
                     }
                 </Row>
             </Container>
+            {/* footer import here */}
             <Footer></Footer>
 
         </div>

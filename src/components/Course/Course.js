@@ -6,6 +6,7 @@ import './Course.css';
 
 const Course = (props) => {
     const { name, image, price, description, courseEnrol, category, lesson } = props.course;
+    //Single Course 
     return (
         <Col>
             <Card>

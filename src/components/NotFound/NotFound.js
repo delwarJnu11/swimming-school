@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import image from '../../images/notfound.jpg';
 import './NotFound.css'
 
+//NotFound page here
 const NotFound = () => {
     return (
         <div>

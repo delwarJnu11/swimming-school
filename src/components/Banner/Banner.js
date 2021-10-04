@@ -5,9 +5,11 @@ import './Banner.css'
 
 const Banner = () => {
     return (
+        // Banner part
         <div className="banner-image">
             <Container>
                 <Row>
+                    {/* Header Menu  */}
                     <Header></Header>
                     <Col sm={2}></Col>
                     <Col sm={8} className="text-center text-white banner-text">

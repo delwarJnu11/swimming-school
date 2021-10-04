@@ -8,6 +8,8 @@ const activeStyles = {
     color: "orange",
     fontWeight: "bold"
 }
+
+// Navgation menu here 
 const Header = () => {
     return (
         <Navbar className="py-4" variant="dark" expand="lg">

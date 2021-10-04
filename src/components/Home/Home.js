@@ -6,9 +6,11 @@ import Course from '../Course/Course';
 import Footer from '../Footer/Footer';
 
 const Home = () => {
+    // use custom hook
     const [courses] = useCourses()
     return (
         <div>
+            {/* banner import here */}
             <Banner></Banner>
             <Container>
                 <div className="w-75 mx-auto">
@@ -27,7 +29,7 @@ const Home = () => {
                     </Col>
                 </Row>
             </Container>
-
+            {/* Footer import here */}
             <Footer></Footer>
         </div>
     );
