@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    min-height: 100vh;
 
 }
 .banner-text{
@@ -13,7 +13,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 85vh;
+    padding: 10px;
+    min-height: 100vh;
 }
 .banner-description{
     color: rgb(199, 193, 193);
