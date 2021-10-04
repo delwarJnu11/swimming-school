@@ -1,4 +1,6 @@
-import { Col, Container, Row } from 'react-bootstrap';
+import { Button, Col, Container, Row } from 'react-bootstrap';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 import useCourses from '../../hooks/useCoursers';
 import Banner from '../Banner/Banner';
@@ -25,7 +27,7 @@ const Home = () => {
                 <Row>
                     <Col sm={10}></Col>
                     <Col className="d-flex justify-content-end my-3" sm={2}>
-                        <Link className="text-decoration-none" to='/services'>See More </Link>
+                        <Link className="text-decoration-none" to='/services'> <Button variant="outline-info">See More <FontAwesomeIcon icon={faArrowRight} /> </Button> </Link>
                     </Col>
                 </Row>
             </Container>
