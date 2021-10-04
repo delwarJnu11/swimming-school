@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import Course from '../Course/Course';
+import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 
 const Services = () => {
@@ -15,14 +16,14 @@ const Services = () => {
             <div className="header-bg">
                 <Header></Header>
             </div>
-            <Container>
+            <Container className="my-5">
                 <Row xs={1} md={3} className="g-4">
                     {
                         courses?.map(course => <Course key={course.id} course={course}></Course>)
                     }
                 </Row>
             </Container>
-
+            <Footer></Footer>
 
         </div>
     );

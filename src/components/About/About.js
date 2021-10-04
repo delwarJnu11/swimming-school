@@ -3,6 +3,7 @@ import Header from '../Header/Header';
 import image from '../../images/banner.jpg';
 import './About.css'
 import { Container } from 'react-bootstrap';
+import Footer from '../Footer/Footer';
 
 const About = () => {
     return (
@@ -10,7 +11,7 @@ const About = () => {
             <div className="header-bg">
                 <Header></Header>
             </div>
-            <Container className="mt-5">
+            <Container className="my-5">
                 <div className="row">
                     <div className="col-12 col-md-6">
                         <img className="img-fluid" src={image} alt="" />
@@ -38,6 +39,7 @@ const About = () => {
                     </div>
                 </div>
             </Container>
+            <Footer></Footer>
         </div>
     );
 };

@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Banner from '../Banner/Banner';
 import Course from '../Course/Course';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
     const [courses, setCourses] = useState([]);
@@ -31,6 +32,8 @@ const Home = () => {
                     </Col>
                 </Row>
             </Container>
+
+            <Footer></Footer>
         </div>
     );
 };
