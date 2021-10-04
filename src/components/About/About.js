@@ -16,7 +16,7 @@ const About = () => {
                     <div className="col-12 col-md-6">
                         <img className="img-fluid" src={image} alt="" />
                     </div>
-                    <div className="col-12 col-md-6 ps-5">
+                    <div className="col-12 col-md-6 ps-2">
                         <h5 className="mb-3">About Us</h5>
                         <h3 className="mb-3">Health, Safety, and Learning
                             <br />  Through Having Fun</h3>
