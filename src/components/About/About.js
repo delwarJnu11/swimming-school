@@ -48,7 +48,7 @@ const About = () => {
                         <p className="about-text">The Swim Academy school conducts classes for both children and adults in the field of swimming, diving as well as aqua aerobics. Perfectly trained staff in a calm and pleasant atmosphere will make each participant of the course overcome the fear of water and learn various swimming techniques so that they can choose their favorite one.</p>
                     </div>
                     <div className="col-12 col-md-6">
-                        <ReactPlayer width="100%"
+                        <ReactPlayer controls width="100%"
                             url="https://www.youtube-nocookie.com/embed/77nfKkAc-54"
                         />
                     </div>

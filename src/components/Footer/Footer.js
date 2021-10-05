@@ -25,7 +25,7 @@ const Footer = () => {
                         <p> <small>Swimming is a confusing sport, because sometimes you do it for fun, and other times you do it to not die. And when I'm swimming, sometimes I'm not sure which one it is.</small> </p>
                         <p> <small>Delwar &copy; All Right Reserved.</small></p>
                     </div>
-                    <div className="col-12 col-md-2">
+                    <div className="col-12 col-md-3">
                         <Link className="footer-nav" to='/home'>Home</Link>
                         <Link className="footer-nav" to='/about'>About</Link>
                         <Link className="footer-nav" to='/services'>Services</Link>
@@ -33,7 +33,7 @@ const Footer = () => {
                         <Link className="footer-nav" to='/privacy'>Privacy & Policy</Link>
                         <Link className="footer-nav" to='/condition'>Terms & Conditions</Link>
                     </div>
-                    <div className="col-12 col-md-5">
+                    <div className="col-12 col-md-4">
                         <h3>Sign up newsletters</h3>
                         <div className="my-4 w-50">
                             <Form.Control type="text" placeholder=" enter Your Email" />
