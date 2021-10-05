@@ -21,7 +21,7 @@ const Course = (props) => {
                         <p><FontAwesomeIcon className="icon" icon={faLayerGroup} /> <small className="category">{lesson}</small></p>
                     </div>
                     <div className="text-center">
-                        <Button className="w-100 px-5" variant="info"> <FontAwesomeIcon icon={faCheckCircle} /> Enroll Now</Button>
+                        <Button className="w-100 px-5" variant="info"> <FontAwesomeIcon className="icon" icon={faCheckCircle} /> Enroll Now</Button>
                     </div>
                 </Card.Body>
             </Card>

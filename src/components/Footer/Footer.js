@@ -2,7 +2,7 @@ import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneAlt, faMapMarkedAlt } from '@fortawesome/free-solid-svg-icons';
-import { faFacebookSquare, faTwitter, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookSquare, faTwitter, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { Container, Form } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './Footer.css'
