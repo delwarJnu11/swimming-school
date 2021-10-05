@@ -9,7 +9,7 @@ const Course = (props) => {
     //Single Course 
     return (
         <Col>
-            <Card>
+            <Card className="card">
                 <Card.Img variant="top" src={image} />
                 <Card.Body>
                     <p> <FontAwesomeIcon className="icon" icon={faFolder} /> <small className="category">{category}</small> </p>
@@ -20,10 +20,10 @@ const Course = (props) => {
                         <p> <FontAwesomeIcon className="icon" icon={faUser} /> <small className="category">{courseEnrol} Enrolled</small></p>
                         <p><FontAwesomeIcon className="icon" icon={faLayerGroup} /> <small className="category">{lesson}</small></p>
                     </div>
-                    <div className="text-center">
-                        <Button className="w-100 px-5" variant="info"> <FontAwesomeIcon className="icon" icon={faCheckCircle} /> Enroll Now</Button>
-                    </div>
                 </Card.Body>
+                <Card.Footer>
+                    <Button className="w-100" variant="info"> <FontAwesomeIcon className="icon" icon={faCheckCircle} /> Enroll Now</Button>
+                </Card.Footer>
             </Card>
         </Col>
     );

@@ -13,7 +13,7 @@ const Footer = () => {
     return (
         <div className="footer-bg">
             <Container>
-                <div className="row py-5">
+                <div className="row pt-5 pb-3 ">
                     <div className="col-12 col-md-5">
                         <h1>Swimming School</h1>
                         <p>
@@ -23,7 +23,8 @@ const Footer = () => {
                             <FontAwesomeIcon className="social-icon" icon={faYoutube} />
                         </p>
                         <p> <small>Swimming is a confusing sport, because sometimes you do it for fun, and other times you do it to not die. And when I'm swimming, sometimes I'm not sure which one it is.</small> </p>
-                        <p> <small>Delwar &copy; All Right Reserved.</small></p>
+                        <p> <small>when I'm swimming, sometimes I'm not sure which one it is.</small> </p>
+
                     </div>
                     <div className="col-12 col-md-3">
                         <Link className="footer-nav" to='/home'>Home</Link>
@@ -44,6 +45,10 @@ const Footer = () => {
                     </div>
                 </div>
             </Container>
+            <hr />
+            <div className="text-center py-3">
+                <p> <small>Delwar &copy; All Right Reserved.</small></p>
+            </div>
         </div>
     );
 };

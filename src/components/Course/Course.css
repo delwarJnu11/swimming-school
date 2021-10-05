@@ -1,3 +1,6 @@
+.card{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
 .icon{
     color: rgb(25, 74, 139);
     font-size: 16px;
