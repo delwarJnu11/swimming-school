@@ -1,7 +1,7 @@
 import React from 'react';
-import { Card, Col } from 'react-bootstrap';
+import { Button, Card, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faFolder, faLayerGroup } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faFolder, faLayerGroup, faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 import './Course.css';
 
 const Course = (props) => {
@@ -19,6 +19,9 @@ const Course = (props) => {
                     <div className="d-flex justify-content-between">
                         <p> <FontAwesomeIcon className="icon" icon={faUser} /> <small className="category">{courseEnrol} Enrolled</small></p>
                         <p><FontAwesomeIcon className="icon" icon={faLayerGroup} /> <small className="category">{lesson}</small></p>
+                    </div>
+                    <div className="text-center">
+                        <Button className="w-100 px-5" variant="info"> <FontAwesomeIcon icon={faCheckCircle} /> Enroll Now</Button>
                     </div>
                 </Card.Body>
             </Card>

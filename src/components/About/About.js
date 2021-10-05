@@ -39,6 +39,14 @@ const About = () => {
                             </div>
                         </div>
                     </div>
+                    <div className="row">
+                        <div className="col-12 col-md-6">
+
+                        </div>
+                        <div className="col-12 col-md-6">
+                            <video src="https://youtu.be/a73OQpg2xeU"></video>
+                        </div>
+                    </div>
                 </div>
             </Container>
             {/* footer part */}
